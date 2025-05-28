@@ -1,0 +1,789 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+* {  /*con esto se aplica generalmente a la pagina*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header { /*IMAGEN PRINCIPAL*/
+    background-image: url(https://www.nintendo.com/eu/media/images/08_content_images/news_5/2020_5/may_8/wallpapers/super_mario_maker_2/Super_Mario_Maker_2_2_image912w.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+ .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+#menu {
+    display: none   
+}
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.LOGO {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+.menu .navbar ul li {
+    position: relative;
+        float: left;
+}
+.borde:hover {
+    border: solid 1px white;
+}
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    display: block;/*el display block ajusta el efecto del padding*/
+    font-weight: 600;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+.general-content h2 {
+    display: none;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-txt h1 {        /*NINTENDO*/
+    font-size: 85px;
+    color: white;
+    /*text-transform: uppercase; /*volver el texto en mayuscula*/
+    margin-bottom: 25px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    z-index: 1000;
+}
+.general {
+    padding: 30px 0; /*x y*/
+    text-align: center;
+}
+.general-g2 {
+    text-align: center;
+    padding: 10px 0;
+}
+.general-content {
+    display: flex; /*display flex coloca por encima los objetos*/
+}
+.general-1:hover, .general-2:hover, .general-3:hover, .general_4:hover, .general_5:hover, .general_6:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.general-1 {  /*IMAGENES*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ZAdnhAcospYnMeMLU9Xt4p06-TfXymCBVA&s);
+}
+.general-2 {  /*IMAGENES*/
+    background-image: url(https://i.blogs.es/194fd5/legend-zelda-breath-wild-nintendo-switch-impresiones/1366_2000.jpg);
+}
+.general-3 {  /*IMAGENES*/
+    background-image: url(https://www.nintendo.com/eu/media/images/10_share_images/others_3/SI_Pokemon.jpg);
+}
+.general_4 {  /*IMAGENES*/
+    background-image: url(https://wallpapers.com/images/hd/kirby-background-ydd4wsz21q3k8cbl.jpg);
+}
+.general_5 {  /*IMAGENES*/
+    background-image: url(https://sm.ign.com/ign_es/news/m/metroid-dr/metroid-dread-has-a-new-boss-rush-mode_d4zg.jpg);
+}
+.general_6 {  /*IMAGENES*/
+    background-image: url(https://www.pluggedin.com/wp-content/uploads/2020/01/super-smash-bros-review-image-1024x587.jpg);
+}
+.general-1, .general-2, .general-3, .general_4, .general_5, .general_6 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 5vh;
+    padding: 50px 22px;
+    margin: 0 7px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 6px black;
+}
+.general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18{ /*ABAJO*/
+    background-color: #222222;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+    padding: 50px 50px;
+    margin: 1px 1px;
+}
+h2 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+.txt h3 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.txt p {
+    color: white;
+    font-size: 16px;
+}
+.info_1 { /*SECCION 1*/     
+        background-color: rgb(255, 1, 1);
+        height: 75vh;
+        border-top: 1.5px solid black ; border-bottom: 1.5px solid black;
+    }
+.info-content {
+    text-align: center;
+    padding-top: 25px;
+}
+.info-circle { /*GENERAL*/
+    justify-content: space-around;
+    margin-top: 55px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+#ACC {
+  margin-top: 15px;
+  margin-bottom: -30px;
+}
+#TLJ {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.PRO_IMG { /*IMAGEN*/
+    width: 26vh;    
+    height: 10vw;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 10px 10px;
+}
+.PI1 {
+    background-color: #ECECEC;
+}
+.PI2 {
+    background-color: #ECECEC;
+}
+.PI3 {
+    background-color: #ECECEC;
+}
+.PI4 {
+    background-color: #ECECEC;
+}
+.PI5 {
+    background-color: #ECECEC;
+}
+.PI6 {
+    background-color: #ECECEC;
+}
+.PI7 {
+    background-color: #ECECEC;
+}
+.PI8 {
+    background-color: #ECECEC;
+}
+.PI9 {
+    background-color: #ECECEC;
+}
+.PI10 {
+    background-color: #ECECEC;
+}
+.PI11 {
+    background-color: #ECECEC;
+}
+.PI12 {
+    background-color: #ECECEC;
+}
+.circle_1 { /*TEXTO*/
+    height: 100px;
+    width: 100px;   
+    padding-top: 30px;
+}
+.circle_1 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.PRO_IMG p   {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 20px;
+}
+.info-2 {
+    padding: 240px 100px;
+    background-color:rgb(36, 24, 115);
+    height: 40vh;
+}
+#INF2 {
+    margin-top: -240px;
+    font-size: 30px;
+}
+.testi {
+    display: flex;/*colocar elementos por encima*/
+    align-items: center;
+    text-align: left;
+}
+.testi-left {
+    width: 50%;
+    padding-right: 100px;
+}
+.testi-right {
+    width: 50%;
+    padding-left: 35px;
+    
+}
+.testi-txt {
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #ECECEC;
+}
+.testi-txt img {
+    width: auto;
+    height: 10vh;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+footer {
+    padding: 100px 0 0 0;
+    text-align: center;  
+}
+.footer {
+    padding: 100px 0 0 0 ;
+    text-align: center;
+}
+.form {
+    margin-top: 35px;
+}
+.campo {
+    margin-right: 10px;
+    padding: 17px 35px;
+    border: 2px solid black;
+    outline: none;
+}
+.campo::placeholder {
+    color: rgb(0, 0, 0);
+}
+.Btn-2 {
+    padding: 17px 35px;
+    border: solid 2px black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: black;
+}
+.Btn-2:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+.footer-txt {
+    margin-top: 80px;
+    border-top: solid 1px black;
+    padding: 20px 0;
+}
+#CONT {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-txt p {
+    color: black;
+    font-size: 16px;
+}
+.ICONS {
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+}
+a [ class="bi bi-facebook"] {
+    color: rgb(0, 0, 0);  
+    text-shadow: 3px 3px 6px #1877F2;
+}
+a [ class="bi bi-instagram"] {
+    color:rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px #bc2a8d;
+}
+a [ class="bi bi-whatsapp"] {   
+    color:rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px #25D366;
+}
+a [ class="bi bi-twitter-x"] {
+    color:rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px #222222;
+}
+a [ class="bi bi-linkedin"] {
+    color:rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px #0A66C2;
+}
+/*------------------------------------------------Media Query-------------------------------------------------------------------------------*/
+/*MINIMO--------LISTO------------------------------------------------------------------------------------------*/
+@media screen and (min-width:0px) and (max-width:320px) {
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: royalblue;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+    }
+    .header-content {
+        padding: 100px 30px;
+    }
+    .header-txt h1 {
+        font-size: 40px;
+    }
+    .header-txt p {
+        padding: 0;
+    }
+    .general {
+        padding: 30px 30px 0 30px;
+    }
+    .general-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .general-content h2 {
+        margin-bottom: 30px;
+        display: initial;
+    }
+    #ACC { /*ACCESORIOS*/
+        margin-top: -260px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    #TLJ {
+        margin-bottom: 20px;
+        margin-top: -80px;
+    }
+    .PRO_IMG p {
+        visibility: hidden;
+    }
+    .general-1, .general-2, .general-3, .general_4, .general_5, .general_6 {
+        margin-bottom: 10px;
+        padding: 30px 16px;
+        margin: 5px ;
+        width: 95vw;
+    }
+    .general-1:hover, .general-2:hover, .general-3:hover, .general_4:hover, .general_5:hover, .general_6:hover {
+        transition: none;
+        transform: none; 
+        opacity: none;
+    }
+    .info_1 {
+        padding: 250px 20px;
+        background-size: cover;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        height: 310vh;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .info-circle {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+    .PRO_IMG {
+        padding: 80px 70px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18 {
+        width: 95vw;
+    }
+    .info-2 {
+        padding: 220px 30px;
+        background-size: cover;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        height: 110vh;
+    }
+    .testi {
+        flex-direction: column;
+    }
+    .testi-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .testi-right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .footer {
+        padding: 0;
+        margin-top: -140px;
+    }
+    #CONT {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .campo {
+       margin-top: 1px;
+       margin-bottom: 2px;
+    }
+    .footer-txt {
+        margin-top: 30px;
+    }
+    .Btn-2 {
+        padding: 10px 0 10px 0;
+        margin-right: 10px;
+    }
+}
+/*SMARTPHONE---LISTO--------------------------------------------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:480px) {
+    .menu {
+        padding: 30px ;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: royalblue;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+    }
+    .header-content {
+        padding: 100px 30px;
+    }
+    .header-txt h1 {
+        font-size: 50px;
+    }
+    .header-txt p {
+        padding: 0;
+    }
+    .general {
+        padding: 30px 30px 0 30px;
+    }
+    .general-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .general-content h2 {
+        margin-bottom: 30px;
+        display: initial;
+    }
+    #ACC { /*ACCESORIOS*/
+        margin-top: -170px;
+    }
+    #TLJ {
+        margin-bottom: 20px;
+        margin-top: -80px;
+    }
+    .PRO_IMG p {
+        visibility: hidden;
+    }
+    .general-1, .general-2, .general-3, .general_4, .general_5, .general_6 {
+        margin-bottom: 10px;
+        padding: 30px 16px;
+        margin: 5px ;
+        width: 95vw;
+    }
+    .general-1:hover, .general-2:hover, .general-3:hover, .general_4:hover, .general_5:hover, .general_6:hover {
+        transition: none;
+        transform: none; 
+        opacity: none;
+    }
+    .info_1 {
+        padding: 250px 80px;
+        background-size: cover;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        height: 360vh;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .info-circle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .PRO_IMG {
+        padding: 80px 70px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18 {
+        width: 95vw;
+    }
+    .info-2 {
+        padding: 220px 30px;
+        background-size: cover;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        height: 90vh;
+    }
+    .testi {
+        flex-direction: column;
+    }
+    .testi-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .testi-right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .footer {
+        padding: 0;
+        margin-top: -140px;
+    }
+    #CONT {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .campo {
+       margin-top: 1px;
+       margin-bottom: 2px;
+    }
+    .footer-txt {
+        margin-top: 30px;
+    }
+    .Btn-2 {
+        padding: 10px 0 10px 0;
+        margin-right: 10px;
+    }
+}
+/*TABLET----LISTO---------------------------------------------------------------------------*/  
+@media screen and (min-width:481px) and (max-width:768px) {
+    .menu {
+        padding: 30px ;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: royalblue;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+    }
+    .header-content {
+        padding: 100px 30px;
+    }
+    .header-txt h1 {
+        font-size: 50px;
+    }
+    .header-txt p {
+        padding: 0;
+    }
+    .general {
+        padding: 30px 30px 0 30px;
+    }
+    .general-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .general-content h2 {
+        margin-bottom: 30px;
+        display: initial;
+    }
+    #ACC { /*ACCESORIOS*/
+        margin-top: -170px;
+    }
+    #TLJ {
+        margin-bottom: 20px;
+        margin-top: -80px;
+    }
+    .PRO_IMG p {
+        visibility: hidden;
+    }
+    .general-1, .general-2, .general-3, .general_4, .general_5, .general_6 {
+        margin-bottom: 10px;
+        padding: 30px 16px;
+        margin: 5px ;
+        width: 95vw;
+    }
+    .general-1:hover, .general-2:hover, .general-3:hover, .general_4:hover, .general_5:hover, .general_6:hover {
+        transition: none;
+        transform: none; 
+        opacity: none;
+    }
+    .info_1 {
+        padding: 250px 80px;
+        background-size: cover;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        height: 350vh;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .info-circle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .PRO_IMG {
+        padding: 80px 70px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18 {
+        width: 95vw;
+    }
+    .info-2 {
+        padding: 220px 30px;
+        background-size: cover;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        height: 90vh;
+    }
+    .testi {
+        flex-direction: column;
+    }
+    .testi-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .testi-right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .footer {
+        padding: 0;
+        margin-top: -140px;
+    }
+    #CONT {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .campo {
+       margin-top: 1px;
+       margin-bottom: 2px;
+    }
+    .footer-txt {
+        margin-top: 30px;
+    }
+    .Btn-2 {
+        padding: 10px 0 10px 0;
+        margin-right: 10px;
+    }
+}
+/*lAPTOP----LISTO-----------------------------------------------------------------------------*/
+@media screen and (min-width:769px) and (max-width: 1024px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}   
+#ACC {
+    margin: 0;
+    padding: 0;
+}
+.info_1 {
+    padding: 10px 110px;
+    background-size: cover;
+    height: 110vh;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.info-circle {
+    margin-bottom: 40px;
+}
+.PRO_IMG {
+    padding: 70px 60px;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.PRO_IMG p {
+    visibility: visible;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: -38px;
+}
+.circle_1 {
+    margin-bottom: 20px;
+}
+.info-2 {
+    padding: 200px 100px;
+    background-size: cover;
+    height: 80vh;
+    margin: 0 2px;
+}
+.general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18 {
+    width: 90vw;
+    height: 30vh;
+}
+#INF2 {
+    margin-top: -180px;
+    font-size: 30px;
+}
+.footer {
+    padding: 0;
+    margin-top: 100px;
+}
+}

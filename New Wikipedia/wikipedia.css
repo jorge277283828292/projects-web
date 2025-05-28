@@ -1,0 +1,393 @@
+body {
+    background-color: azure;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navegacion {
+    display: flex;
+    margin: 5px 20px 0 20px;
+    padding: 15px; 
+    background-color: royalblue;
+    border-radius: 15px;
+}
+.Navegacion ul > li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.Navegacion ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+.Navegacion ul > li > a:hover {
+    border-bottom: solid 2px white;
+}
+/*Barra de Navegacion*/
+.Wikipedia {
+    margin: 15px 20px 0 20px; /*Arriba, derecha, abajo, izquierda*/
+    padding: 15px;
+    border: solid 2px black;
+    background-image: url(https://thumbs.dreamstime.com/b/mosaico-del-fondo-de-letras-73589048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+.Categorias {
+    display: flex;
+    justify-content: flex-end;
+}
+.Categorias ul > li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.Categorias ul > li > a {
+    list-style: none;
+}
+.Categorias ul > li > a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+/*Categorias*/
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.Articulo1 {
+    width: 40%;
+    height: 100%;
+    margin: 15px 10px 0 20px;
+    box-sizing: border-box;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+.Articulo1 img {
+    width: 35%;
+    border-radius: 5px;
+    display: flex;
+    float: left;
+    padding: 5px 5px 0 0;
+}
+.Articulo1 a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #245ae3;
+    text-decoration: none;
+}
+.Articulo1 a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+.Articulo1 p {
+    margin-bottom: 15px;
+}
+#Art_1_2 {
+    font-size: 17px;
+    font-weight:bolder;
+}
+/*#1*/
+.Articulo2 {
+    width: 40%;
+    height: 100%;
+    margin: 15px 20px 0 10px;
+    box-sizing: border-box;
+    border: solid 2px black; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+.Articulo2 a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #245ae3;
+    text-decoration: none;
+}
+.Articulo2 a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+.Articulo2 img {
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    float: right;
+    padding: 5px;
+}
+.Articulo2 abbr {
+    font-size: 17px;
+    font-weight:lighter;
+    color:#245ae3;
+}
+.Articulo2 abbr:hover {
+    border-bottom: solid 2px #245ae3;
+}
+/*#2*/
+.Articulo3 {
+    width: 40%;
+    height: 100%;
+    margin-top: -1000px;
+    margin: -43px 10px 0 20px;
+    box-sizing: border-box;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+.Articulo3 a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #245ae3;
+    text-decoration: none;
+}
+.Articulo3 a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+.Articulo3 abbr {
+    font-size: 17px;
+    font-weight:lighter;
+    color:#245ae3;
+}
+.Articulo3 abbr:hover {
+    border-bottom: solid 2px #245ae3;
+}
+.Galeria ul{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap; /*Esto agrupo los elementos adentro del borde*/
+}
+.Galeria ul > li > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 7px;
+    border: 1px solid black;
+}
+/*#3*/
+.Articulo4 {
+    width: 40%;
+    height: 100%; 
+    margin: 15px 20px 0 10px;
+    box-sizing: border-box;
+    border: solid 2px black; 
+    padding: 15px;
+    border-radius: 5px;  
+    box-shadow: 1px 1px 3px black;
+}
+.Articulo4 a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #245ae3;
+    text-decoration: none;
+}
+.Articulo4 a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+/*#4*/
+.Articulo5 {
+    width: 40%;
+    height: 100%;
+    margin: 15px 10px 0 20px;
+    box-sizing: border-box;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+.Articulo5 a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #245ae3;
+    text-decoration: none;
+}
+#Art_5_1 {
+    font-size: 17px;
+    font-weight:bolder;
+    color: black;
+}
+.Articulo5 a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+.Articulo5 abbr {
+    font-size: 17px;
+    font-weight:lighter;
+    color:#245ae3;
+}
+.Articulo5 abbr:hover {
+    border-bottom: solid 2px #245ae3;
+}
+/*#5*/
+.Articulo6 {
+    width: 40%;
+    margin: -70px 20px 0 10px;
+    box-sizing: border-box;
+    border: solid 2px black; 
+    padding: 15px;  
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+.Articulo6 a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #245ae3;
+    text-decoration: none;
+}
+.Articulo6 a:hover {
+    border-bottom: solid 2px #245ae3;
+}
+/*#6*/
+article {
+    display: flex;
+    flex-wrap: wrap; 
+}
+/*Articulos*/
+footer {
+    margin: 0 20px;
+}
+footer ul {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 25px;
+    border-top: solid 2px black;
+  
+}
+footer ul > li {
+    flex-wrap: wrap;
+    margin: 0 10px;
+    font-size: 25px;
+}
+footer ul > li > a {
+    color: black;
+}
+.ICONS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.ICONS a {
+    text-decoration: none;
+    margin: 0 3px;
+}
+a [ class="bi bi-facebook"] {
+    color: #000000;
+}
+a [ class="bi bi-instagram"] {
+    color: #000000;
+}
+a [ class="bi bi-whatsapp"] {   
+    color: #000000;
+}
+a [ class="bi bi-twitter-x"] {
+    color: #000000;
+}
+a [ class="bi bi-linkedin"] {
+    color: #000000;
+}   
+/*Footer*/
+/* Dispositivos móviles (teléfonos) */
+@media (max-width: 600px) {
+    /* Estilos para dispositivos móviles */
+    .Navegacion {
+        margin: 15px 10px 0 10px;
+    }
+    .Navegacion ul > li{
+        text-align: center;
+        font-size: 12px;
+    }
+    .Categorias ul > li {
+        font-size: 12px;
+        text-align: center;
+    }
+    .Articulo1, .Articulo2, .Articulo3, .Articulo4, .Articulo5, .Articulo6 {
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+        margin: 15px 20px 0 20px;
+    }
+    .Articulo1 img, .Articulo2 img {
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        float: none;
+        padding: 5px 5px 0 0;
+    }
+    .Galeria ul > li > img {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        margin: 7px;
+        border: 1px solid black;
+        align-items: center;
+    }
+}
+/* Tablets en orientación vertical */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Estilos para tablets en orientación vertical */
+    .Navegacion{
+        margin: 15px 10px 0 10px;
+        font-size: 16px;
+    }
+    .Categorias ul > li > a {
+        font-size: 16px;
+}
+    .Articulo1, .Articulo2, .Articulo3, .Articulo4, .Articulo5, .Articulo6 {
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+        margin: 15px 20px 0 20px;
+    }
+    .Articulo1 img, .Articulo2 img {
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        float: none;
+        padding: 5px 5px 0 0;
+    }
+}
+
+/* Tablets en orientación horizontal */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tablets en orientación horizontal */
+    .Navegacion {
+        margin: 15px 10px 0 10px;
+    }
+    .Categorias {
+        margin: 15px 10px 0 10px;
+    }
+    .Articulo1, .Articulo2 , .Articulo3, .Articulo4, .Articulo5, .Articulo6 {
+        width: 40%;
+        height: 100%;
+        margin: 15px 10px 0 20px;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    .Articulo3 {
+        margin-top: -105px;
+    }
+    .Articulo6 {
+        margin-top: -265px;
+        padding: 20px 15px 146px 0;
+}
+}
+
+/* Laptops y desktops pequeños */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Estilos para laptops y desktops pequeños */
+}
+
+/* Desktops grandes */
+@media (min-width: 1441px) {
+    /* Estilos para desktops grandes */
+}
+/*Media Queries*/
