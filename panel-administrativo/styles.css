@@ -13,7 +13,7 @@
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
-    --color-background: #0a4388;
+    --color-background: #f0f0f0;
 
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
@@ -56,10 +56,10 @@ body {
     height: 100vh;
     font-family: poppins, sans-serif;
     font-size: 0.88rem;
-    background: white;
     user-select: none;
     overflow-x: hidden;
-    color: var(--color-dark)
+    color: var(--color-dark);
+    background: var(--color-background);
 }
 
 .container {
