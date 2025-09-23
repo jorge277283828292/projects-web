@@ -13,6 +13,9 @@ Sitio web para una tienda de videojuegos. Fue uno de mis primeros intentos de ap
 ### 🔍 Pokedex
 Mi proyecto web más completo hasta la fecha. Desarrollado con JavaScript para consumir la **PokéAPI**, mostrar datos dinámicos y manejar interacciones del usuario. Representa un salto significativo en lógica, estructura y manejo de APIs REST.
 
+### 🛠️ Panel Administrativo
+Un panel de administración moderno y responsive para gestionar un sitio web. Incluye dashboard con métricas, secciones para clientes, órdenes, análisis y más. Desarrollado con HTML, CSS y JavaScript, utilizando Material Symbols para iconos.
+
 ## 🎯 Objetivo del repositorio
 
 - Mostrar mi evolución desde los primeros pasos hasta proyectos más elaborados.
